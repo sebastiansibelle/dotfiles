@@ -19,12 +19,3 @@ alias gfixsub='git submodule foreach --recursive git checkout master && git subm
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/luke/bin:/usr/local/texlive/2010/bin/universal-darwin/"
 
 export PATH="~/bin:$PATH"
-
-##
-# MacPorts Installer addition on 2012-03-21_at_08:54:06: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-  . `brew --prefix`/etc/bash_completion
-fi
