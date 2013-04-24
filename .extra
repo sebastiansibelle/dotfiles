@@ -43,6 +43,7 @@ function hira {
 
 	# for the throw command, change directory too.
 	$HOME/dev/scripts/hira.sh "$@"
+
 	if [ "$1" = "throw" ]
 	then
 		cd "$HOME/Sites/$2"
